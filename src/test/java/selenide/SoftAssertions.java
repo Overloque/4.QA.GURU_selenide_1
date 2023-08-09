@@ -15,7 +15,7 @@ public class SoftAssertions {
     }
 
     @Test
-    void SelenidePageTest() {
+    void selenidePageTest() {
         open("https://github.com/selenide/selenide");
         $("#wiki-tab").click();
         $(".wiki-more-pages-link").$("[type=button]").click();
